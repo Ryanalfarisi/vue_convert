@@ -135,7 +135,7 @@ export default {
         }
         this.text = chars.join("");
       } else if (type == 8) {
-        let filename = "hendra-convert.txt";
+        let filename = "convert-case.txt";
         this.download(filename, this.text);
       } else if (type == 10) {
         /* Get the text field */
